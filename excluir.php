@@ -21,4 +21,4 @@ if(isset($_POST["Excluir"])){
 
 }else{
     echo "algo deu errado";
-}
+} 

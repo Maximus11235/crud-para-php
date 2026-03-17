@@ -5,7 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>CRUD alunos</title>
 </head>
-<body>
+<body> 
 
     <form action="cadastrar.php" method="post">
         <label for="nome">Nome:</label>
