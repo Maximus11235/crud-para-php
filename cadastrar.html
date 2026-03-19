@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="ptbr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="wrapper">
+        <div class="form-wrapper">
+            <h1>Cadastrar Usuário</h1>
+            <form action="cadastrar.php" method="post">
+                <input type="text" id="nome" name="nome" placeholder="Nome" required>
+                <input name="email" id="email" type="email"  placeholder="Email" required/>
+                <input type="text" name="curso"  placeholder="Curso" required>
+                <div class="btn-box">
+                    <a href="index.php" class="btn">Cancelar</a>
+                    <button type="submit" class="btn" name="cadastrar">Cadastrar</button>
+                </div>
+            </form>
+        </div>
+    </div>
+</body>
+</html>
