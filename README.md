@@ -1,4 +1,4 @@
-# [CRUD php]
+# CRUD php
 ## Descrição
 
 [O projeto tem como o objetivo aprender a integrar php com HTML e css para 
@@ -9,7 +9,7 @@ registrar alunos por nome, email e curso que participa atualmente]
 
 - Cadastrar aluno
 - Buscar alunos por filtro (nome, email, curso)
-- Editar dados do aluno aluno
+- Editar dados do aluno
 - Deletar aluno
 
 ## Tecnologias
@@ -17,6 +17,7 @@ registrar alunos por nome, email e curso que participa atualmente]
 - php v 8.4
 - CSS
 - HTML 5
+- Ubuntu
 
 ## Estrutura do Projeto
 
@@ -45,6 +46,16 @@ em uma pasta do apache2 e coloque o comando
 5. Abra o navegador e digite 'localhost' e selecione
 a pasta com o link para os arquivos
 
+## Configuração
+
+Edite o arquivo conexao.php com suas credenciais:
+
+- host
+- usuário
+- senha
+- nome do banco
+
+  
 ## Autor
 
 [Maximus Rosa do Nascimento]
